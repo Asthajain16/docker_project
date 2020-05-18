@@ -7,8 +7,8 @@ services:
                 restart: always
                 environment:
                         MYSQL_ROOT_PASSWORD: rootpass
-                        MYSQL_USER: kapil
-                        MYSQL_PASSWORD: kapil
+                        MYSQL_USER: astha
+                        MYSQL_PASSWORD: astha
                         MYSQL_DATABASE: mydb
         ncos:
                 depends_on:
